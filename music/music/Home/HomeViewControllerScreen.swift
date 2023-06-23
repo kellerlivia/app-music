@@ -34,7 +34,6 @@ class HomeViewControllerScreen: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
     private func setUpConstraints() {
         self.tableView.pin(to: self)
     }
